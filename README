@@ -1,0 +1,15 @@
+This Android app is a demonstration in usability design written for a course of the same name.  Simply put, it's an app for ordering pizza.  This was my first Android app, and was a great experience for learning the Android layout system, database interfacing and design with SQLite3 and Java, and why not to use Dropbox for projects like this.
+
+Authors:
+  Joshua Kovach
+  Steven Farrer
+  Nic Sizemore
+
+TODO:
+  1. Refactor the whole lot.
+      Like I said, this was a learning experience.  That being said, a lot of things could have been done more efficiently.  Most of the XML layouts could probably be cleaned up/consolidated.  Maybe not.  We didn't learn about inflation until shortly before the deadline.  There are a lot of assets that aren't actually used.
+  2. Update comments.
+      Again, a lot of XML files.  Many of them were simply copied from others.  Therefore, there are a lot of comments/documentations that just aren't accurate.  A lot of this could end up being taken care of during refactoring.
+  3. Add editing of orders/pizzas.
+      Really just didn't have time for this, and it was beyond the scope of the project.  Icons and infrastructure are there, just need the database methods.
+  4. So much more.
