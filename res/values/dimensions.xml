@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	@values/dimensions
+	Author: Joshua Kovach
+	Date: 14 September 2010
+	Description: Contains values for dimensions of objects.
+		All sizes should be listed and referenced from here.
+-->
+<resources>
+	<dimen name="button_padding">9dip</dimen>
+	<dimen name="subheading_padding">3dip</dimen>
+	<dimen name="heading_one_size">22dip</dimen>
+	<dimen name="small_text">14dip</dimen>
+	<dimen name="layout_padding">18dip</dimen>
+</resources>

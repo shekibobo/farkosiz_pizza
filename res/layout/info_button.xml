@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  @layout/info_button
+  Author: Joshua Kovach
+  Date: 14 September 2010
+  Includes:
+   @drawable/bh_info_n: green colored '?' symbol
+   @drawable/bh_info_n: orange colored '?' symbol
+  Description:
+   large sized button for the home screen, '?' symbol
+   colored green normally, orange when pressed
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+		android:state_pressed="true"
+		android:drawable="@drawable/bh_info_p" 
+		/> <!-- pressed -->
+	<item 
+		android:drawable="@drawable/bh_info_n" 
+		/> <!-- default -->
+</selector>

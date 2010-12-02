@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:id="@+id/pizza_title1"
+  	android:orientation="horizontal"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:padding="@dimen/subheading_padding"
+  	android:paddingBottom="0dip"
+ 	android:clickable="true"
+ 	android:background="@color/yellow"
+>
+ 	 
+	<TextView
+   	android:id="@+id/pizza_num"
+   	android:text="@string/pizza"
+   	android:textSize="@dimen/heading_one_size"
+   	android:textColor="@color/black"
+   	android:layout_width="fill_parent"
+ 		android:layout_height="fill_parent"
+   	android:layout_alignParentLeft="true"
+   	android:padding="@dimen/subheading_padding"
+   	android:paddingLeft="@dimen/button_padding"
+    />
+    
+	<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/edit_button"
+		android:src="@drawable/b_edit_bw_n"
+		android:background="@layout/w_o_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right"
+		android:layout_alignParentRight="true"
+		android:padding="@dimen/button_padding"
+		/>
+    
+  	<!--  <include layout="@layout/cancel_button_bw" 
+  		
+  	/> -->
+    
+</RelativeLayout>

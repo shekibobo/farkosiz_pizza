@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical" >
+  <TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/green"
+    android:padding="@dimen/subheading_padding"
+    android:textColor="@color/black" 
+    android:text="@string/crust"
+    android:textStyle="bold" />
+	<RadioGroup 
+	  android:id="@+id/crust_selector"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content" 
+	  android:orientation="horizontal"
+	  android:padding="@dimen/layout_padding"
+	  android:paddingBottom="0dip"
+	  android:gravity="center_horizontal" >
+	  
+	  <RadioButton android:id="@+id/btn_thin_crust"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:button="@layout/radiobutton_crust_thin"
+	    android:gravity="center_horizontal" />
+	
+	  <RadioButton android:id="@+id/btn_thick_crust"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+      android:layout_weight="1"
+	    android:button="@layout/radiobutton_crust_thick"
+      android:gravity="center_horizontal"
+	    android:checked="true" />
+	
+	  <RadioButton android:id="@+id/btn_deep_crust"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+      android:layout_weight="1"
+	    android:button="@layout/radiobutton_crust_deep"
+      android:gravity="center_horizontal" />
+	
+	  <RadioButton android:id="@+id/btn_stuffed_crust"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+      android:layout_weight="1"
+	    android:button="@layout/radiobutton_crust_stuffed"
+      android:gravity="center_horizontal" />
+	
+	</RadioGroup>
+	<LinearLayout
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content" 
+	  android:gravity="center_horizontal"
+	  android:paddingTop="0dip" >
+	  <TextView
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_weight="1"
+	    android:text="@string/thin"
+	    android:textColor="@color/black"
+	    android:textSize="@dimen/small_text"
+	    android:textStyle="bold"
+	    android:gravity="center_horizontal" />
+    <TextView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_weight="1"
+      android:text="@string/thick"
+      android:textColor="@color/black"
+      android:textSize="@dimen/small_text"
+      android:textStyle="bold"
+      android:gravity="center_horizontal" />
+    <TextView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_weight="1"
+      android:text="@string/deep"
+      android:textColor="@color/black"
+      android:textSize="@dimen/small_text"
+      android:textStyle="bold"
+      android:gravity="center_horizontal" />
+    <TextView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_weight="1"
+      android:text="@string/stuffed"
+      android:textColor="@color/black"
+      android:textSize="@dimen/small_text"
+      android:textStyle="bold"
+      android:gravity="center_horizontal" />
+	</LinearLayout>
+</LinearLayout>

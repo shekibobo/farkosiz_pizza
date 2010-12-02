@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	@values/colors
+	Author: Joshua Kovach
+	Date: 13 September 2010
+	Description: contains predefined values for colors used in 
+		the user interface.  All colors used must be listed, named,
+		and referenced from here.
+-->
+<resources>
+	<color name="blue">#003399</color>
+	<color name="light_blue">#6699ff</color>
+	<color name="orange">#ff6600</color>
+	<color name="white">#ffffff</color>
+	<color name="black">#000000</color>
+	<color name="green">#99cc33</color>
+  <color name="yellow">#FF9900</color>
+  <color name="transparent">#0fff</color>
+  <color name="grey">#808080</color>
+  <color name="purple">#4B0082</color>
+</resources>

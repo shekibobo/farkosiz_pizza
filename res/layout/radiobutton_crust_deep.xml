@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  @drawable/radiobutton_small_pizza
+  Author: Joshua Kovach
+  Date: 13 September 2010
+  Includes:
+   @color/blue: chosen color of blue for normal color
+   @color/orange: chosen color of orange for button press
+  Description:
+   object which changes color from blue to orange on press
+   used for bg of title-bar buttons
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_checked="true"
+        android:drawable="@drawable/pizza_crust_deep_p" />
+	<item android:state_pressed="true"
+		android:drawable="@drawable/pizza_crust_deep_p" /> <!-- pressed -->
+	<item android:drawable="@drawable/pizza_crust_deep_n" /> <!-- default -->
+</selector>

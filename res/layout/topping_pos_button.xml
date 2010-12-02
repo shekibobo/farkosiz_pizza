@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:padding="@dimen/button_padding"
+  android:clickable="true" >
+  <TextView
+    android:id="@+id/topping_select_text"
+    android:text="@string/item"
+    android:textSize="@dimen/heading_one_size"
+    android:textColor="@color/black"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:paddingLeft="@dimen/button_padding" />
+  <ImageView
+    android:id="@+id/topping_select_icon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:src="@drawable/topping_position_none" 
+    android:padding="@dimen/button_padding" />
+</RelativeLayout>

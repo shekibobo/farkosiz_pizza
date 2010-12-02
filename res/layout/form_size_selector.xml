@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical" >
+	<TextView 
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:background="@color/green"
+	  android:padding="@dimen/subheading_padding"
+	  android:textColor="@color/black" 
+	  android:text="@string/size"
+	  android:textStyle="bold" />
+	<RadioGroup 
+	  android:id="@+id/size_selector"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content" 
+	  android:orientation="horizontal"
+	  android:padding="@dimen/layout_padding" >
+	  <RadioButton android:id="@+id/btn_small_pizza"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:button="@layout/radiobutton_small_pizza"
+	    android:layout_weight="0.5" 
+	    android:padding="@dimen/button_padding" />
+	
+	
+	  <RadioButton android:id="@+id/btn_medium_pizza"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:button="@layout/radiobutton_medium_pizza"
+      android:layout_weight="0.6"  
+      android:padding="@dimen/button_padding"
+      android:checked="true" />
+	
+	  <RadioButton android:id="@+id/btn_large_pizza"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:button="@layout/radiobutton_large_pizza"
+      android:layout_weight="0.7"  
+      android:padding="@dimen/button_padding" />
+	
+	  <RadioButton android:id="@+id/btn_xlarge_pizza"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:button="@layout/radiobutton_xlarge_pizza"
+      android:layout_weight="0.8"  
+      android:padding="@dimen/button_padding" />
+	
+	</RadioGroup>
+</LinearLayout>

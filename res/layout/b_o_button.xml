@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  @drawable/b_o_button
+  Author: Joshua Kovach
+  Date: 13 September 2010
+  Includes:
+   @color/blue: chosen color of blue for normal color
+   @color/orange: chosen color of orange for button press
+  Description:
+   object which changes color from blue to orange on press
+   used for bg of title-bar buttons
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true"
+		android:drawable="@color/orange" /> <!-- pressed -->
+	<item android:drawable="@color/transparent" /> <!-- default -->
+</selector>

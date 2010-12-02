@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  @layout/new_pizza_button
+  Author: Joshua Kovach
+  Date: 14 September 2010
+  Includes:
+   @drawable/bh_npizza_n: green colored pizza icon
+   @drawable/bh_npizza_p: orange colored pizza icon
+  Description:
+   large sized button for the home screen, pizza icon
+   colored green normally, orange when pressed
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+		android:state_pressed="true"
+		android:drawable="@drawable/btn_home_recent_orders_pressed" 
+		/> <!-- pressed -->
+	<item 
+		android:drawable="@drawable/btn_home_recent_orders" 
+		/> <!-- default -->
+</selector>

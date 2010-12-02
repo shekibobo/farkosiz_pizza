@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Farkosiz\' Pizza</string>
+    <string name="new_pizza">New Pizza</string>
+    <string name="edit_pizza">Edit Pizza</string>
+    <string name="order_view">Order Review</string>
+    <string name="submitted">Order Submitted</string>
+    
+    <string name="new_order">New Order</string>
+    <string name="specials">Specials</string>
+    <string name="recent_pizzas">Recent Pizzas</string>
+    <string name="recent_orders">Recent Orders</string>
+    <string name="info">Information &amp; Pricing</string>
+    <string name="preview">Preview</string>
+    
+    <string name="enter">Enter Your Name:</string>
+    <string name="item">Item</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="total">Total</string>
+    
+    <string name="size">Size</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="party">Party</string>
+    
+    <string name="cheese">Cheese</string>
+    <string name="toppings">Toppings</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="sausage">Sausage</string>
+    <string name="peppers">Peppers</string>
+    <string name="onion">Onions</string>
+    <string name="xchease">Extra Cheese</string>
+    <string name="mushroom">Mushrooms</string>
+    
+    <string name="crust">Crust</string>
+    <string name="thin">Thin\nCrust</string>
+    <string name="thick">Thick\nCrust</string>
+    <string name="deep">Deep\nDish</string>
+    <string name="stuffed">Stuffed\nCrust</string>
+    
+    <string name="t_coverage">Topping Coverage</string>
+    <string name="full">Full</string>
+    <string name="half1">Right Half</string>
+    <string name="half2">Left Half</string>
+    
+    <string name="thanks">Thank you, </string>
+    <string name="confirm">. Your order has been submitted.</string>
+    
+    <string name="main_no_items">No items to display.</string>
+    
+	<string name="pizza">Pizza</string>
+	
+	<string name="quantity">Quantity:</string>
+</resources>

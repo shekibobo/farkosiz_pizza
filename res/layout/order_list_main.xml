@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  @layout/main
+  Author: Joshua Kovach
+  Date: 13 September 2010
+  Includes:
+   @layout/title_menu_bar
+  Description:
+   primary layout for a given screen w/ fixed title menu bar
+   and scrollable layout beneath
+   ToDo: Create scrollable object for content screens
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main_menu_bar"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    >
+	<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/main_top"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/blue"
+	    >
+	    <include layout="@layout/order_action_menu" />
+	</FrameLayout>
+	<FrameLayout
+		android:id="@+id/main_bottom"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@color/white"
+		>
+		<include layout="@layout/order_list" />
+		
+	</FrameLayout>
+</LinearLayout>

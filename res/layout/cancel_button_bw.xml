@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  @drawable/cancel_button
+  Author: Joshua Kovach
+  Date: 13 September 2010
+  Includes:
+   @drawable/b_cancel_bw_n: 'x', white/transparent, h:24px
+   @drawable/w_o_button: white/orange button bg on press
+  Description:
+   'x' button with a white normal background, orange on press
+-->
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/cancel_button_bw"
+	android:src="@drawable/b_cancel_bw_n"
+	android:background="@layout/w_o_button"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:padding="@dimen/button_padding"
+	/>

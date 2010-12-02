@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  @drawable/title_field
+  Author: Joshua Kovach
+  Date: 13 September 2010
+  Description:
+   field that gives the title of the screen, white text, blue bg
+-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/title"
+  android:layout_width="wrap_content" 
+  android:layout_height="fill_parent"
+  android:text="@string/app_name"
+  android:textSize="@dimen/heading_one_size"
+  android:textStyle="bold"
+  android:textColor="@color/white"
+  android:gravity="center"
+  android:paddingLeft="5px"
+  />

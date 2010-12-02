@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  @layout/recent_orders_button
+  Author: Joshua Kovach
+  Date: 14 September 2010
+  Includes:
+   @drawable/bh_rpizza_n: green colored '?' symbol
+   @drawable/bh_rpizza_p: orange colored '?' symbol
+  Description:
+   large sized button for the home screen, pizza/sliced icon
+   colored green normally, orange when pressed
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+		android:state_pressed="true"
+		android:drawable="@drawable/btn_home_new_order_pressed" 
+		/> <!-- pressed -->
+	<item 
+		android:drawable="@drawable/btn_home_new_order" 
+		/> <!-- default -->
+</selector>

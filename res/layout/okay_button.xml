@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  @drawable/okay_button
+  Author: Joshua Kovach
+  Date: 13 September 2010
+  Includes:
+   @drawable/b_ok_n: [check], white/transparent, h:24px
+   @drawable/b_o_button: blue/orange button bg on press
+  Description:
+   check button with a blue normal background, orange on press
+-->
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/okay_button"
+	android:src="@drawable/b_ok_n"
+	android:background="@layout/b_o_button"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:padding="@dimen/button_padding"
+	/>

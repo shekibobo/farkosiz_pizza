@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/topping_button"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:padding="@dimen/subheading_padding"
+  android:paddingBottom="0dip"
+  android:clickable="true"
+  android:background="@layout/w_o_button" >
+  <TextView
+    android:id="@+id/topping_select_text"
+    android:text="@string/item"
+    android:textSize="@dimen/heading_one_size"
+    android:textColor="@color/black"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_toRightOf="@+id/topping_select_icon"
+    android:padding="@dimen/subheading_padding"
+    android:paddingLeft="@dimen/button_padding"/>
+  <ImageView
+    android:id="@+id/topping_select_icon"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:src="@drawable/topping_position_none"
+    android:padding="@dimen/button_padding" />
+  <View xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:id="@+id/horizontal_div"
+	  android:layout_width="fill_parent"
+	  android:layout_height="1dip"
+	  android:layout_alignParentBottom="true"
+	  android:background="#55000000"
+	  android:layout_marginLeft="5dip"
+	  android:layout_marginRight="5dip" />
+</RelativeLayout>

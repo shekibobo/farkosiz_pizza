@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  @layout/main_menu_bar.xml
+  Author: Joshua Kovach
+  Date: 13 September 2010
+  Includes:
+   @layout/home_button
+   @layout/title_field
+   @layout/okay_button
+   @layout/add_button
+   @layout/cancel_button
+  Description:
+   Main menu bar w/home button and title bar on the right, 
+   okay, add, and cancel buttons aligned right. Blue background.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/recent_pizzas_action_menu"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+    >
+  <include layout="@layout/home_button" />
+  <include layout="@layout/title_field" />
+  <LinearLayout
+    android:id="@+id/command_buttons"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    >
+    <include layout="@layout/cancel_button" />
+  </LinearLayout>
+</LinearLayout>
